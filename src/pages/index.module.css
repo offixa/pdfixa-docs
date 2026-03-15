@@ -1,0 +1,111 @@
+/* ── Hero ─────────────────────────────────────────────── */
+.hero {
+  padding: 4rem 0 3rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin: 0 0 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ── Features ─────────────────────────────────────────── */
+.features {
+  padding: 3rem 0;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.feature {
+  padding: 0.75rem 0;
+}
+
+.feature h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+
+.feature p {
+  font-size: 0.88rem;
+  opacity: 0.85;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ── Quick example ────────────────────────────────────── */
+.example {
+  padding: 3rem 0;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.example h2 {
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+}
+
+.exampleRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.exampleNote {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-top: 0.75rem;
+}
+
+/* ── Links ────────────────────────────────────────────── */
+.links {
+  padding: 3rem 0 4rem;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.linkGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.linkCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.linkCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkCard strong {
+  font-size: 0.95rem;
+}
+
+.linkCard span {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}

@@ -1,0 +1,18 @@
+/**
+ * PDFixa docs — minimal, developer-focused theme
+ */
+
+:root {
+  --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+}
+
+/* Slightly tighter reading width for docs */
+.docItemContainer article {
+  max-width: 720px;
+}
+
+/* Code blocks */
+pre {
+  border-radius: 6px;
+}
