@@ -55,7 +55,7 @@ const sidebars = {
       items: [
         'core-vs-pro',
         'pro',
-        'pricing',
+        'reference/pricing',
       ],
     },
   ],
