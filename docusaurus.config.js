@@ -22,7 +22,14 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/offixa/pdfixa-docs/edit/main/',
         },
-        blog: false,
+        blog: {
+          path: './blog',
+          routeBasePath: 'blog',
+          blogTitle: 'PDFixa Blog',
+          blogDescription: 'Comparison articles, Java PDF tutorials, backend integration guides, and PDF library evaluations.',
+          showReadingTime: false,
+          editUrl: 'https://github.com/offixa/pdfixa-docs/edit/main/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -47,6 +54,7 @@ const config = {
       items: [
         { to: '/', label: 'Home', position: 'left' },
         { to: '/docs/intro', label: 'Docs', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/examples', label: 'Examples', position: 'left' },
         {
           href: 'https://github.com/offixa/pdfixa',
