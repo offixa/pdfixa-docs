@@ -49,6 +49,15 @@ const sidebars = {
         'reference/error-handling',
       ],
     },
+    {
+      type: 'category',
+      label: 'PDFixa Pro',
+      items: [
+        'core-vs-pro',
+        'pro',
+        'pricing',
+      ],
+    },
   ],
 };
 
