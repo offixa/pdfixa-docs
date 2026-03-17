@@ -37,8 +37,9 @@ const sidebars = {
       label: 'Guides',
       items: [
         'guides/invoice',
-        'guides/report',
         'guides/spring-boot',
+        'guides/deterministic-testing',
+        'guides/text-encoding',
       ],
     },
     {
